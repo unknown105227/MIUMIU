@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: {
+        family: $font-base;
+        size: $font-size-body;
+    }
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: $a-color;
+    &:hover {
+        color: $hover-color;
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    font-size: $font-size-second-title;
+}
