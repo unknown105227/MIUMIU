@@ -1,4 +1,6 @@
-@import "reset.scss"; 
+@import "./style.scss"; // 1순위
+@import "./reset.scss"; // 2순위
+@import "./mixin.scss"; // 3순위
 
 article img {
     width: 100%;
